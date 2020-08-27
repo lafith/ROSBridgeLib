@@ -14,6 +14,12 @@ This repository does not contain every ROS message. If you need to add one, plea
 Documentation is in the code. I added some more in addition to what Michael Jenkin (original
 author) did. The main file is ROSBridgeWebSocketConnection.cs, which sets up everything.
 
+## Installation
+Clone this repository in to the Assets folder of an Unity project:
+```console
+foo@bar:~$  git clone --recurse-submodules https://github.com/MathiasCiarlo/ROSBridgeLib.git
+```
+
 ## Example usage
 This is an example application where a ball is controlled. Basically, there are three important script types to notice. 
 
