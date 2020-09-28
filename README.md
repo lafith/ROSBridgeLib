@@ -5,7 +5,7 @@ foo@bar:~$ sudo apt-get install ros-<rosdistro>-rosbridge-suite
 foo@bar:~$ source /opt/ros/<rosdistro>/setup.bash
 foo@bar:~$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-The first version of this I believe origins from [Michael Jenkin](https://github.com/michaeljenkin), in the repo [unityros](https://github.com/michaeljenkin/unityros). He made a sample unity project showing turtlesim, with good instructions on how to use this project. All honor goes to him. I created this project because there was no repository containing the barebone library.
+This repo is a fork of [Mathias Ciarlo](https://github.com/MathiasCiarlo)'s [ROSBridgeLib](https://github.com/MathiasCiarlo/ROSBridgeLib).First version of this is from [Michael Jenkin](https://github.com/michaeljenkin), in the repo [unityros](https://github.com/michaeljenkin/unityros). He made a sample unity project showing turtlesim, with good instructions on how to use this project. All honor goes to him.
 
 ## Included messages
 This repository does not contain every ROS message. If you need to add one, please make a pull request.
